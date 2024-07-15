@@ -1,0 +1,24 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+
+
+# Django
+# ------------------------------------------------------------------------------
+DJANGO_CORS_ALLOWED_ORIGINS=http://site-a.com:8000,http://localhost:3000,http://localhost:8000
+
+
+
+# Redis
+
+
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=debug
+CELERY_FLOWER_PASSWORD=debug
